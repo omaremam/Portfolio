@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-container-wrap {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  align-items: center;
+}
+
+.inner-container {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.main-container {
+  background-color: #1d1d20;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.upper-row {
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: #ccc;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  svg {
+    color: #ccc;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.container-reversed {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+  align-self: flex-end;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 220px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 5px;
+}
+
+.left-mini {
+  width: 5px !important;
+  height: 100px !important;
+}
+
+.right-mini {
+  width: 100px !important;
+  height: 5px !important;
+}
+
+.right {
+  width: 190px;
+  height: 15px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    -90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 5px;
+}
+
+.description-content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 60%;
+}
+
+.middle-row {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 24px;
+}
+.welcome {
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: #ccc;
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.project-container{
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; 
+}
+
+.description-container {
+  display: flex;
+  align-items: start;
+}
+
+
+.project-description {
+    
+}
+
+.description-text {
+  color: #ccc;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.gradient-bar {
+  align-self: stretch;
+  width: 10px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 20px;
+  a {
+    cursor: pointer;
+    color: #ccc;
+    display: inline;
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(transparent, transparent),
+      linear-gradient(to right, #30e8bf, #ff8235);
+    background-repeat: no-repeat;
+    background-position: 130%, 150%, 0 180%;
+    background-size: 100% 10px;
+    font-weight: bold;
+  }
+}
+
+.projects-outline {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  a {
+    cursor: pointer;
+    color: #ccc;
+    display: inline;
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(transparent, transparent),
+      linear-gradient(to right, #30e8bf, #ff8235);
+    background-repeat: no-repeat;
+    background-position: 130%, 150%, 0 180%;
+    background-size: 100% 10px;
+    font-weight: bold;
+    margin: 10px 5px;
+    &:hover {
+      color: white;
+      transform: scale(1.05);
+    }
+  }
+}
+
+.project-selection {
+  width: 30%;
+  height: 50%;
+}
