@@ -25,7 +25,7 @@ import mobileFive from "../images/mobileFour.png";
 import courzerveMobileOne from "../images/courzerveMobileOne.jpeg";
 import thesis from "../images/Thesisfinal.pdf";
 
-export const Data = [
+export default [
   {
     key: 1,
     text: "My name is Omar Emam, and I am a Software Developer with a degree in Network Engineering. With extensive knowledge of software development, DevOps, UI/UX, and cloud computing, I have successfully built several complex production-level software applications from start to finish. I am committed to designing and implementing quality solutions that meet the needs of clients and end-users. My portfolio demonstrates my proficiency in designing and implementing software systems that are reliable, efficient, and scalable.",

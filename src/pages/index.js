@@ -1,7 +1,12 @@
 import * as React from "react";
 import "./index.scss";
-import { AiFillPhone, AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-import { Data } from "./DescriptionContent";
+import {
+  AiFillPhone,
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillMail,
+} from "react-icons/ai";
+import Data from "./DescriptionContent";
 import ProjectDescription from "./ProjectDescription";
 import MoreInformation from "./MoreInformation";
 
@@ -64,10 +69,13 @@ const IndexPage = () => {
                     <AiFillPhone size={25} />
                   </a>
                   <a href="mailto:oemam3051@gmail.com">
-                  <AiFillMail size={25} />
+                    <AiFillMail size={25} />
                   </a>
-                  <a href="https://www.linkedin.com/in/omar-emam-0034b81b0/" target="_blank">
-                  <AiFillLinkedin size={25} />
+                  <a
+                    href="https://www.linkedin.com/in/omar-emam-0034b81b0/"
+                    target="_blank"
+                  >
+                    <AiFillLinkedin size={25} />
                   </a>
                 </div>
               </div>
@@ -81,17 +89,18 @@ const IndexPage = () => {
                       <p className="welcome">Hello.</p>
                     )}
                     <ProjectDescription project={descriptionContent} />
-                    {descriptionContent !== Data[0] && descriptionContent.moreInformation && (
-                      <a
-                        className="animate"
-                        style={{ width: "fit-content", margin: "20px" }}
-                        onClick={() => {
-                          toggleMoreInformation(!moreInformationToggled);
-                        }}
-                      >
-                        More information
-                      </a>
-                    )}
+                    {descriptionContent !== Data[0] &&
+                      descriptionContent.moreInformation && (
+                        <a
+                          className="animate"
+                          style={{ width: "fit-content", margin: "20px" }}
+                          onClick={() => {
+                            toggleMoreInformation(!moreInformationToggled);
+                          }}
+                        >
+                          More information
+                        </a>
+                      )}
                   </div>
                   <div className="project-selection">
                     <p className="project-title">Projects</p>
