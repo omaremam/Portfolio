@@ -32,6 +32,12 @@ import mobileFour from "../images/mobileone.png";
 import mobileFive from "../images/mobilefour.png";
 import courzerveMobileOne from "../images/courzervemobileone.jpeg";
 import thesis from "../images/thesisfinal.pdf";
+import mainweb from "../images/main.png"
+import networkweb from "../images/network.png"
+import patientconsumption from "../images/patientconsumption.png"
+import payerpolicy from "../images/payerpolicy.png"
+import poolassoc from "../images/poolassoc.png"
+import pools from "../images/pools.png"
 
 
 
@@ -123,13 +129,13 @@ const descriptionContent = [
           title: "Sehatech Insurance Company Portal",
           description:
             "The Sehatech insurance company portal is a management enterprises software mainly focused for Medical insurance companies containing features such as Claim management, policy management, customer management, fraud management and internal matters management",
-          images: [providerOne, providerTwo, providerThree, providerFour],
+          images: [patientconsumption, payerpolicy, pools, poolassoc],
         },
         {
           title: "Sehatech Main Website",
           description:
             "This project is the main website and the communication and commercial point for Sehatech",
-          images: [providerOne, providerTwo, providerThree, providerFour],
+          images: [mainweb, networkweb],
         },
       ],
     },
