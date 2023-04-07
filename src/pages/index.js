@@ -21,10 +21,10 @@ import {
 import { RiComputerFill } from "react-icons/ri";
 import { DiHeroku } from "react-icons/di";
 import { SiFirebase, SiFlutter, SiMongodb, SiMysql } from "react-icons/si";
-import providerOne from "../images/allowedservicedcapture.png";
-import providerTwo from "../images/claimfull.png";
-import providerThree from "../images/claimpage.png";
-import providerFour from "../images/settlements.png";
+import providerOne from "../images/allowedservicedcapture.PNG";
+import providerTwo from "../images/claimfull.PNG";
+import providerThree from "../images/claimpage.PNG";
+import providerFour from "../images/settlements.PNG";
 import mobileOne from "../images/mobilefive.png";
 import mobileTwo from "../images/mobiletwo.png";
 import mobileThree from "../images/mobilethree.png";
