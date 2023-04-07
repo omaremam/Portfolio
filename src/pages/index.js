@@ -21,17 +21,17 @@ import {
 import { RiComputerFill } from "react-icons/ri";
 import { DiHeroku } from "react-icons/di";
 import { SiFirebase, SiFlutter, SiMongodb, SiMysql } from "react-icons/si";
-import providerOne from "../images/allowedServicedCapture.png";
-import providerTwo from "../images/claimFull.png";
+import providerOne from "../images/allowedservicedcapture.png";
+import providerTwo from "../images/claimfull.png";
 import providerThree from "../images/claimpage.png";
 import providerFour from "../images/settlements.png";
-import mobileOne from "../images/mobileFive.png";
-import mobileTwo from "../images/mobileTwo.png";
-import mobileThree from "../images/mobileThree.png";
-import mobileFour from "../images/mobileOne.png";
-import mobileFive from "../images/mobileFour.png";
-import courzerveMobileOne from "../images/courzerveMobileOne.jpeg";
-import thesis from "../images/Thesisfinal.pdf";
+import mobileOne from "../images/mobilefive.png";
+import mobileTwo from "../images/mobiletwo.png";
+import mobileThree from "../images/mobilethree.png";
+import mobileFour from "../images/mobileone.png";
+import mobileFive from "../images/mobilefour.png";
+import courzerveMobileOne from "../images/courzervemobileone.jpeg";
+import thesis from "../images/thesisfinal.pdf";
 
 
 
