@@ -47,7 +47,7 @@ function CarouselComponent(props) {
             />
           )}
         </div>
-        {props.data.length > 1 && (
+        {props.data && props.data.length > 1 && (
           <div className="carousel-switch-container">
             {props.data &&
               props.data.map((_, index) => {

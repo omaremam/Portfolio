@@ -15,12 +15,12 @@ function MoreInformation(props) {
             marginTop: "50px",
           }}
         >
-          {props.data.title}
+          {props.data?.title}
         </p>
       </div>
 
       <div className="info-stack-section">
-        {props.data.stacks.main.map((stack) => {
+        {props.data?.stacks.main.map((stack) => {
           return (
             <div className="stack-row">
               {stack.typeLogo}
@@ -38,7 +38,7 @@ function MoreInformation(props) {
       </div>
 
       <div className="info-project-section">
-        {props.data.projects.map((project) => {
+        {props.data?.projects.map((project) => {
           let containerStyling = "description-m-container";
           if (!project.images) containerStyling += " noImg";
           return (
